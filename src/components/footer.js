@@ -2,32 +2,22 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+const divStyle = {
+    margin: `0 auto`,
+    maxWidth: 960,
+    maxHeight: 50,
+    padding: `1rem 1rem`,
+  };
+const h6Style = {
+    color:'white'
+  }
+const  footerStyle={
+    background: `#333333`,
+  }
 const Footer = ({ siteFooter }) => (
-  <footer
-    style={{
-      background: `#333333`,
-      
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1rem 1rem`,
-
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-         <h3> {siteFooter}</h3>
-        </Link>
-      </h1>
+  <footer style={footerStyle}>
+    <div style={divStyle}>
+         <h6 style={h6Style}> {siteFooter}</h6>
     </div>
   </footer>
 )

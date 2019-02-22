@@ -10,6 +10,7 @@ const divStyle = {
   };
 const h6Style = {
     color:'white',
+    textAlign:'center'
   }
 const  footerStyle={
     background: `#333333`,

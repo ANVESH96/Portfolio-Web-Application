@@ -33,19 +33,19 @@ const Header = ({ siteTitle }) => (
         <a style={{color:'white',fontFamily:'sans-serif',fontSize:27}}> {siteTitle}</a>
         </div>
       <div class="links"  style={{
-        maxWidth :480,
+        maxWidth :960,
         maxHeight:80,
         margin: `0 auto`,
-        padding: `1.5rem 1.5rem`,
+        padding: `1.5rem 0rem`,
         display:'block',
-        float:'right'}}>
-        <ul style={{float:'left'}}>
+        float:'left'}}>
+        <ul >
         
-        <li style={{display:'inline'}}/> <Link to="/" style={linkStyle}> HOME</Link>
-        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> SKILLS</Link>
-        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> PROJECT</Link>
-        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> BLOG</Link>
-        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> CONTACT</Link> 
+        <li style={{display:'inline',padding:'0rem 0rem'}}/> <Link to="/" style={linkStyle}> HOME</Link>
+        <li style={{display:'inline',padding:'0rem 2rem'}}/><Link to="/" style={linkStyle}> SKILLS</Link>
+        <li style={{display:'inline',padding:'0rem 2rem'}}/><Link to="/" style={linkStyle}> PROJECT</Link>
+        <li style={{display:'inline',padding:'0rem 2rem'}}/><Link to="/" style={linkStyle}> BLOG</Link>
+        <li style={{display:'inline',padding:'0rem 2rem'}}/><Link to="/" style={linkStyle}> CONTACT</Link> 
       </ul> 
       </div>
     </div>

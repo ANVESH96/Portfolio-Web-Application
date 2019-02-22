@@ -11,24 +11,43 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#333333`,
+      height:80,
     }}
   >
-    <div
-      style={{
+  <div class="container"
+        style={{
         margin: `0 auto`,
-        maxWidth: 960,
+        padding: `0rem 2rem`,
+        height:80,
+        display:'block',
+        }}>  
+         <div class="name"
+        style={{
+        maxWidth:580,
         maxHeight:80,
-        padding: `0rem 2rem`,}}> 
-        <table>
-      <td>
-      <a style={{color:'white',fontFamily:'sans-serif',height:40}}> {siteTitle}</a>
-      </td>
-      <td/><Link to="/" style={linkStyle}> HOME</Link>
-      <td/><Link to="/" style={linkStyle}> SKILLS</Link>
-      <td/><Link to="/" style={linkStyle}> PROJECT</Link>
-      <td/><Link to="/" style={linkStyle}> BLOG</Link>
-      <td/><Link to="/" style={linkStyle}> CONTACT</Link>  
-      </table>
+        margin: 0,
+        padding: `1.5rem 6rem`,
+        display:'block',
+        float:'left'
+        }}>  
+        <a style={{color:'white',fontFamily:'sans-serif',fontSize:27}}> {siteTitle}</a>
+        </div>
+      <div class="links"  style={{
+        maxWidth :480,
+        maxHeight:80,
+        margin: `0 auto`,
+        padding: `1.5rem 1.5rem`,
+        display:'block',
+        float:'right'}}>
+        <ul style={{float:'left'}}>
+        
+        <li style={{display:'inline'}}/> <Link to="/" style={linkStyle}> HOME</Link>
+        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> SKILLS</Link>
+        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> PROJECT</Link>
+        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> BLOG</Link>
+        <li style={{display:'inline'}}/><Link to="/" style={linkStyle}> CONTACT</Link> 
+      </ul> 
+      </div>
     </div>
   </header>
 )

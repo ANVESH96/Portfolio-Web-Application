@@ -4,12 +4,12 @@ import React from "react"
 
 const divStyle = {
     margin: `0 auto`,
-    maxWidth: 960,
+    width: 960,
     maxHeight: 50,
     padding: `1rem 1rem`,
   };
 const h6Style = {
-    color:'white'
+    color:'white',
   }
 const  footerStyle={
     background: `#333333`,

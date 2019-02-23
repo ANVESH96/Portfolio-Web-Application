@@ -4,7 +4,7 @@ import React from "react"
 
 const divStyle = {
     margin: `0 auto`,
-    width: 960,
+    maxwidth: 960,
     maxHeight: 50,
     padding: `1rem 1rem`,
   };

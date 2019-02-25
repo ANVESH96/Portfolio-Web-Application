@@ -1,12 +1,11 @@
 import React from "react"
-import PropTypes from "prop-types"
+
 import Layout from "../components/layout"
-import SEO from "../components/seo"
 import "../components/layout.css"
-import { Link } from "gatsby"
+
 import {Form} from "react-bootstrap"
-import { StaticQuery, graphql } from "gatsby"
-import{Card,ListGroup,Container,Row,Col,Button} from"react-bootstrap"
+
+import{Container,Row,Col,Button} from"react-bootstrap"
 
 
 const contactPage = () => (

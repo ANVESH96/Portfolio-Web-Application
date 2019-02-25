@@ -1,7 +1,5 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
-import {Navbar,Nav} from "react-bootstrap"
+import {Navbar} from "react-bootstrap"
 
 const Footer = () => (
   <Navbar  sticky ="bottom"  bg="dark" expand="lg" variant="dark" role="navigation" style={{minHeight:35,justifyContent:"center"}}>

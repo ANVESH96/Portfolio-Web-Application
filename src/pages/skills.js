@@ -1,17 +1,9 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../components/layout.css"
-import { Link } from "gatsby"
-import {MdLocationOn} from "react-icons/md"
-import Profileimage from "../components/image"
 import {Container,Col,Row} from "react-bootstrap"
-import { StaticQuery, graphql } from "gatsby"
-import {FaGithub,FaLinkedin,FaInstagram,FaFacebook} from "react-icons/fa"
-import { GoCode,GoBrowser,GoGraph,GoDatabase} from "react-icons/go"
-import {IoIosCloudCircle} from "react-icons/io"
-import{Card,ListGroup} from"react-bootstrap"
+import{Card} from"react-bootstrap"
 
 
 const skillsPage = () => (

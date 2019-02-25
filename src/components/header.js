@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import "../styles/bootstrap.min.css"
+// import "../styles/bootstrap.min.css"
 import {Nav,Navbar,Container,Row,Col} from "react-bootstrap"
 const linkStyle ={
   color: 'white',

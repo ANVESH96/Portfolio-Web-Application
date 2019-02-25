@@ -20,7 +20,7 @@ const contactPage = () => (
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="name@example.com" />
     <Form.Text className="text-muted">
-      We'll never share your email with anyone else.
+      I'll never share your email with anyone else.
     </Form.Text>
   </Form.Group>
   <Form.Group controlId="exampleForm.ControlSelect1">

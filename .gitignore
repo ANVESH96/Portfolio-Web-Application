@@ -67,9 +67,6 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
-<<<<<<< HEAD
 
 #bootstrap file
 bootstrap.min.css
-=======
->>>>>>> 18aadf905890ae32bec9342267028d8d56e66417

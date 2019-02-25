@@ -6,7 +6,7 @@ import "../components/layout.css"
 import { Link } from "gatsby"
 import {Form} from "react-bootstrap"
 import { StaticQuery, graphql } from "gatsby"
-import{Card,ListGroup,Container,Row,Col} from"react-bootstrap"
+import{Card,ListGroup,Container,Row,Col,Button} from"react-bootstrap"
 
 
 const contactPage = () => (
@@ -35,6 +35,9 @@ const contactPage = () => (
     <Form.Label>Add Text</Form.Label>
     <Form.Control as="textarea" rows="3" />
   </Form.Group>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
 </Form> 
 </Col>
 </Row>

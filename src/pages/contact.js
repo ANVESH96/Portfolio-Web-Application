@@ -12,8 +12,8 @@ import{Card,ListGroup,Container,Row,Col} from"react-bootstrap"
 const contactPage = () => (
     <Layout>
      <Container>
-         <Row  className="justify-content-md-center" style={{fontFamily:'lato'}}> 
-        <Col xs md={2.5} lg={4} style={{padding:"4rem 0rem 4rem 0.5rem "}}> 
+     <Row  className="justify-content-md-center" style={{fontFamily:'lato'}}> 
+     <Col xs md={2.5} lg={4} style={{padding:"4rem 0rem 4rem 0.5rem "}}> 
     <Form attribute="netlify" netlify-honeypot="bot-field" style={{width:400}}>
   <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Email address</Form.Label>

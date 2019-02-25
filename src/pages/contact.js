@@ -15,10 +15,13 @@ const contactPage = () => (
      <Row  className="justify-content-md-center" style={{fontFamily:'lato'}}> 
      <Col xs md={2.5} lg={4} style={{padding:"4rem 0rem 4rem 0.5rem "}}> 
     <Form attribute="netlify" netlify-honeypot="bot-field" style={{width:400}}>
-  <Form.Group controlId="exampleForm.ControlInput1">
-    <Form.Label>Email address</Form.Label>
     <Form.Label style={{display:"none"}} id="bot-field">Email address</Form.Label>
+    <Form.Group controlId="exampleForm.ControlInput1">
+    <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="name@example.com" />
+    <Form.Text className="text-muted">
+      We'll never share your email with anyone else.
+    </Form.Text>
   </Form.Group>
   <Form.Group controlId="exampleForm.ControlSelect1">
     <Form.Label>Choose the Type of Message</Form.Label>

@@ -20,7 +20,7 @@ const skillsPage = () => (
    <Container lg={5}  style={{padding:"2rem 0rem 2rem 0rem"}}> 
    <Row>
     <Col id="webtech">
-   <Card bg="light" border="secondary" style={{ width: '22rem',height:'40rem',fontFamily:'lato' }}>
+   <Card border="secondary" style={{ width: '22rem',height:'40rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:25 }}>Web Technologies</Card.Header>
   <Card.Body >
     <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Front End Technologies</Card.Subtitle>
@@ -50,7 +50,7 @@ const skillsPage = () => (
  </Card>
  </Col>
  <Col id="Data Analytics">
-   <Card bg="light" border="secondary" style={{ width: '20rem',height:'30rem',fontFamily:'lato' }}>
+   <Card  border="secondary" style={{ width: '20rem',height:'30rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:25 }}>Data Analytics</Card.Header>
   <Card.Body >
     <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Statistics</Card.Subtitle>
@@ -72,7 +72,7 @@ const skillsPage = () => (
  </Card>
  </Col>
  <Col id="Software Development">
-   <Card bg="light" border="secondary" style={{ width: '22rem',height:'38rem',fontFamily:'lato' }}>
+   <Card  border="secondary" style={{ width: '22rem',height:'38rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:25 }}>Software Development</Card.Header>
   <Card.Body >
   <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Programming</Card.Subtitle>

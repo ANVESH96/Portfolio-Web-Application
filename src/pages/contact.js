@@ -14,7 +14,7 @@ const contactPage = () => (
      <Container>
      <Row  className="justify-content-md-center" style={{fontFamily:'lato'}}> 
      <Col xs md={2.5} lg={4} style={{padding:"4rem 0rem 4rem 0.5rem "}}> 
-    <Form attribute="netlify" netlify-honeypot="bot-field" style={{width:400}}>
+    <Form  netlify-honeypot="bot-field" style={{width:400}} netlify>
     <Form.Label style={{display:"none"}} id="bot-field">Email address</Form.Label>
     <Form.Group controlId="exampleForm.ControlInput1">
     <Form.Label>Email address</Form.Label>

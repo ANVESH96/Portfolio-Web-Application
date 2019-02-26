@@ -48,7 +48,7 @@ const projectPage = ({data}) => (
     <Card.Title>{data.site.siteMetadata.portfolio_intro} </Card.Title>
     <Card.Text>
      <p>{ "Built using static state generator which retireves data using Graph Ql API."}
-      {"React-bootstrap is used for styling the components and containers"}
+      {"React-bootstrap is used for styling the components and containers."}
       {"The website is hosted using Netlify with continuous integration which saves the deployment time by more than 50%."}
       { "Netlify form handling is used to manage forms from backend without a server. "}</p>
       <a href="https://anveshreddy-mekala.netlify.com/"> https://anveshreddy-mekala.netlify.com/ </a>

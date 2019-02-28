@@ -9,6 +9,7 @@ import { graphql } from "gatsby"
 import {FaGithub,FaLinkedin,FaInstagram,FaFacebook} from "react-icons/fa"
 import { GoCode,GoBrowser,GoGraph,GoDatabase} from "react-icons/go"
 import {IoIosCloudCircle} from "react-icons/io"
+import {MdOpenInBrowser} from "react-icons/md"
 
     export const query = graphql`
       query Introductionpage{
@@ -63,7 +64,7 @@ const homePage = ({data}) => (
         </Row>
         <Row>
         <Col><GoDatabase style={{width:25,height:25}} /> Data Analaytics </Col>
-        <Col><GoGraph style={{width:25,height:25}} /> Data Visualization </Col>
+        <Col><MdOpenInBrowser style={{width:25,height:25}} /> Intelligent Crawlers </Col>
         <Col><IoIosCloudCircle style={{width:25,height:25}} /> Big Data Analytics </Col>
           </Row>
         {/* <Col lg={12} md={8} style={{padding:"1rem 0rem 0rem 0rem",fontSize:20,fontFamily:"Trebuchet MS"}}>{data.site.siteMetadata.quoteline}</Col> */}

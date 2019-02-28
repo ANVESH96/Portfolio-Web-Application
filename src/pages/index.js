@@ -27,7 +27,7 @@ const homePage = ({data}) => (
     <Layout>
     <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
     <Container>
-    <Row>
+    <Row className="justify-content-md-center">
       <Col sm={6} lg={{span: 4,offset:0.8}} md={5} sm={6} xs={12} style={{padding:"3rem 0rem 0rem 0rem"}}>
        <Profileimage />
        <Container>

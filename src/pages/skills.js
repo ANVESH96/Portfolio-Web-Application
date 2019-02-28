@@ -36,7 +36,7 @@ const skillsPage = () => (
     </Card.Text>
     <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Other Frameworks</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
-    <Row><Col>CheerioJs</Col><Col>PhantomJs</Col><Col>PuppeteerJS</Col></Row> 
+    <Row><Col>CheerioJs</Col><Col>PhantomJs</Col><Col>PuppeteerJS</Col><Col>JsDOM</Col></Row> 
     </Card.Text>
   </Card.Body>
  </Card>

@@ -6,7 +6,7 @@ import {Nav,Navbar,Row,Col} from "react-bootstrap"
 import "../styles/styles.css"
 
 const Header = ({ siteTitle }) => (
-  <Navbar  sticky ="top"  bg="dark" expand="lg" variant="dark" role="navigation" style={{minHeight:90,fontFamily:'lato',color:'white'}}>
+  <Navbar  sticky ="top"  bg="dark" expand="lg" variant="dark" role="navigation" style={{minHeight:75,fontFamily:'lato',color:'white'}}>
   <Navbar.Brand  className= "lg mx-0 "style={{fontSize:25}} >{'ANVESHREDDY MEKALA'}</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
    <Navbar.Collapse id="basic-navbar-nav">

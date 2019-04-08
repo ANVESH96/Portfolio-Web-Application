@@ -25,7 +25,7 @@ const projectPage = ({data}) => (
       <Row  lg={12} md={4} xs={2} className="justify-content-md-center" style={{fontFamily:'lato',padding:"2rem 0rem 2rem 0rem"}}>
     
     <Card style={{width:700}}>
-  <Card.Header as="h4">Analyzing Canvas Design Ideas  <a  href="https://github.com/stevemacn/InnovationAnalytics/tree/master/crawler" style={{color:"#333333",float:'right'}}><FaGithub style={{width:35,height:35}} /></a></Card.Header>
+  <Card.Header as="h4">Analyzing "Canvas" Design Ideas  <a  href="https://github.com/stevemacn/InnovationAnalytics/tree/master/crawler" style={{color:"#333333",float:'right'}}><FaGithub style={{width:35,height:35}} /></a></Card.Header>
   <Card.Body>
     <Card.Title>{data.site.siteMetadata.canvasproject_heading}</Card.Title>
     <Card.Text>

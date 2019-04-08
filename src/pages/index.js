@@ -29,11 +29,11 @@ const homePage = ({data}) => (
     <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
     <Container>
     <Row className="justify-content-md-center">
-      <Col sm={6} lg={{span: 4,offset:0.8}} md={5} sm={6} xs={12} style={{padding:"3rem 0rem 0rem 0rem"}}>
+      <Col  lg={{span: 4,offset:0.8}} md={5} sm={6} xs={12} style={{padding:"3rem 0rem 0rem 0rem",justifyContent:"center"}}>
        <Profileimage />
        <Container>
          <Row style={{fontFamily:"lato"}}>
-           <Col lg={12}style={{padding:"0.5rem 0rem 0rem 2.7rem",fontWeight:"bold"}}> ANVESHREDDY MEKALA
+           <Col lg={12} style={{padding:"0.5rem 0rem 0rem 2.7rem",fontWeight:"bold"}}> ANVESHREDDY MEKALA
            </Col>
            <Col lg={12}style={{padding:"0.275rem 0rem 0rem 0rem"}}> Graduate Student at UNC-CHARLOTTE
            </Col>
@@ -52,7 +52,7 @@ const homePage = ({data}) => (
            </Row>
            </Container>
        </Col>
-        <Col lg={8} md={7} sm ={6}style={{padding:"3rem 0rem 0rem 0rem",fontFamily:"lato"}}>{data.site.siteMetadata.introduction}
+        <Col lg={8} md={7} sm ={6} style={{padding:"3rem 0rem 0rem 0rem",fontFamily:"lato"}}>{data.site.siteMetadata.introduction}
         <Col lg={12} md={12} style={{padding:"1rem 0rem 0rem 0rem",fontFamily:"lato"}}>{data.site.siteMetadata.description}</Col>
         <Col lg={12} md={12} style={{padding:"1rem 0rem 0rem 0rem",fontFamily:"lato"}}>{data.site.siteMetadata.mentoredby}</Col>
         <Col lg={12} md={12} style={{padding:"1rem 0rem 0rem 0rem",fontSize:18,fontFamily:"lato",fontWeight:'bold'}}>{data.site.siteMetadata.Interests}</Col>
@@ -65,9 +65,8 @@ const homePage = ({data}) => (
         <Row>
         <Col><GoDatabase style={{width:25,height:25}} /> Data Analaytics </Col>
         <Col><MdOpenInBrowser style={{width:25,height:25}} /> Intelligent Crawlers </Col>
-        <Col><IoIosCloudCircle style={{width:25,height:25}} /> Big Data Analytics </Col>
+        <Col><IoIosCloudCircle style={{width:25,height:25}} /> Big Data </Col>
           </Row>
-        {/* <Col lg={12} md={8} style={{padding:"1rem 0rem 0rem 0rem",fontSize:20,fontFamily:"Trebuchet MS"}}>{data.site.siteMetadata.quoteline}</Col> */}
         </Col>
         <Col>
         <Row>

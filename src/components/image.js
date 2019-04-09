@@ -15,7 +15,7 @@ const Profileimage = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.profilepic.childImageSharp.fluid} style={{borderRadius:130,maxWidth:250,maxHeight:250}} />}
+    render={data => <Img fluid={data.profilepic.childImageSharp.fluid} style={{borderRadius:120,maxWidth:250,maxHeight:250}} />}
   />
 )
 export default Profileimage

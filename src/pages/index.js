@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../components/layout.css"
 import {MdLocationOn} from "react-icons/md"
 import Profileimage from "../components/image"
 import {Container,Col,Row} from "react-bootstrap"
@@ -10,6 +9,7 @@ import {FaGithub,FaLinkedin,FaInstagram,FaFacebook} from "react-icons/fa"
 import { GoCode,GoBrowser,GoGraph,GoDatabase} from "react-icons/go"
 import {IoIosCloudCircle} from "react-icons/io"
 import {MdOpenInBrowser} from "react-icons/md"
+
 
     export const query = graphql`
       query Introductionpage{
@@ -28,6 +28,7 @@ const homePage = ({data}) => (
     <Layout>
     <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
     <Container>
+          
     <Row className="justify-content-md-center">
       <Col  lg={{span: 4,offset:0.8}} md={5} sm={6} xs={12} style={{padding:"3rem 0rem 0rem 0rem",justifyContent:"center"}}>
        <Profileimage />

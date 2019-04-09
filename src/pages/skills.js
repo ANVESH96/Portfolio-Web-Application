@@ -1,13 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../components/layout.css"
 import {Container,Col,Row} from "react-bootstrap"
 import{Card} from"react-bootstrap"
 
 
 const skillsPage = () => (
-    <Layout>
+  <Layout>
    <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
    <Container lg={5}  style={{padding:"2rem 0rem 2rem 1rem"}}> 
    <Row>

@@ -33,8 +33,10 @@ const homepage = ({data}) => (
     <Jumbotron fluid style={{fontFamily:'lato',background:"#FBFBFB",paddingBottom:"2.5rem"}}>    
     <Container> 
     <Row id= "main">
-    <Col  lg={{span:4,offset:0.8}} md={5} sm={12} xs={12} style={{padding:"0rem 0rem 0rem 2rem"}}> 
-      <Profileimage />
+    <Col  lg={{span:4,offset:0.8}} md={5} sm={12} xs={12} style={{padding:"0rem 0rem 0rem 2rem"}}>
+    <Col lg={true} xs={true} md={true} sm={true}style={{justifyContent:"center"}}>
+      <Profileimage/>
+      </Col>
     <Row  id="details"lg={{span:4,offset:0.8}} md={5} sm={12} xs={12} style={{justifyContent:"center"}}> {"Graduate Student @ UNC CHARLOTTE"}
        </Row>
        <Row  lg={{span:4,offset:0.8}} md={5} sm={12} xs={12} style={{justifyContent:"center"}}> {"Email: amekala@uncc.edu"}

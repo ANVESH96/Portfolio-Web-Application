@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import "../styles/bootstrap.min.css"
-import {Nav,Navbar,Row,Col,NavDropdown} from "react-bootstrap"
+import {Nav,Navbar} from "react-bootstrap"
 
 
 const Header = ({ siteTitle }) => (
@@ -17,7 +17,6 @@ const Header = ({ siteTitle }) => (
        <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/skills"} style={{color:'white'}}>SKILLS </Link></Nav>
        <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/projects"} style={{color:'white'}}>PROJECTS</Link></Nav>
        <Nav  style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/contact"} style={{color:'white'}}>CONTACT </Link></Nav>
-
        <Nav> </Nav>
      </Nav>
      </Navbar.Collapse>

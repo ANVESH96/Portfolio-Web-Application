@@ -14,26 +14,26 @@ const skillsPage = () => (
    <Card border="secondary" style={{ width: '18rem',height:'40rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:22 }}>Web Technologies</Card.Header>
   <Card.Body >
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Front End Technologies</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Front End Technologies</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> ReactJs</Col><Col> Angular5</Col><Col> AngularJS</Col></Row> </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Back End & Server</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />{"Back End & Server"}</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> NodeJs</Col><Col> ExpressJs</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Databases</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Databases</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>Firebase</Col><Col>MongoDB</Col><Col>SQL</Col><Col>Redux</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Querying</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} /> Querying</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>GraphQL</Col><Col>SQL</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Static Site Genarators</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} /> Static Site Genarators</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>Gatsby</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Other Frameworks</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} /> Other Frameworks</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>CheerioJs</Col><Col>PhantomJs</Col><Col>PuppeteerJS</Col><Col>JsDOM</Col></Row> 
     </Card.Text>
@@ -44,18 +44,18 @@ const skillsPage = () => (
    <Card  border="secondary" style={{ width: '18rem',height:'30rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:22 }}>Data Analytics</Card.Header>
   <Card.Body >
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Statistics</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Statistics</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> Python3</Col><Col> R</Col></Row> </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Text Mining</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Text Mining</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> NLTK</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Data Visualization</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} /> Data Visualization</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>D3Js</Col><Col>Tablaeu</Col><Col>Dash</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} /> Big Data Technologies</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} /> Big Data Technologies</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>Hadoop</Col><Col>HDFS</Col><Col>Mapreduce2.0</Col><Col>PySpark</Col></Row> 
     </Card.Text>
@@ -66,26 +66,26 @@ const skillsPage = () => (
    <Card  border="secondary" style={{ width: '18rem',height:'38rem',fontFamily:'lato' }}>
    <Card.Header  style={{ fontSize:22 }}>Software Development</Card.Header>
   <Card.Body >
-  <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Programming</Card.Subtitle>
+  <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Programming</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>C++</Col><Col>Java</Col><Col>C</Col></Row> 
     </Card.Text>
-  <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Software Dev Methodologies</Card.Subtitle>
+  <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Software Dev Methodologies</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col>Agile</Col><Col>Scrum</Col><Col>Rapid ProtoTyping</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Containerization</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Containerization</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> Docker</Col></Row> </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Testing</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Testing</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> Quant. Testing</Col><Col>MochaJs</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Authentication</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Authentication</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> Firebase Auth</Col></Row> 
     </Card.Text>
-    <Card.Subtitle className="mb-2 text-muted" ><a style= {{fontSize:25}} />Project Management</Card.Subtitle>
+    <Card.Subtitle className="mb-2 text-muted" ><p style= {{fontSize:25}} />Project Management</Card.Subtitle>
     <Card.Text style= {{fontSize:15}}>
     <Row><Col> Trello</Col><Col> ZohoSprints</Col></Row> 
     </Card.Text>

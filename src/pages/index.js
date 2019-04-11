@@ -48,7 +48,7 @@ const homepage = ({data}) => (
         <Col lg={12} md={12} style={{padding:"1rem 0.25rem 0.25rem 0.25rem",fontFamily:"lato"}}>
          <h2 style={{fontSize:"35px"}}>{"WHO AM I?"}</h2>
               <Typed style={{color:"orange",fontSize:"35px"}}
-                  strings={["FULL STACK DEVELOPER","PROTOTYPING","REACT DEVELOPER"]} 
+                  strings={["FULL STACK DATA DEVELOPER","PROTOTYPER","REACT DEVELOPER"]} 
                   typeSpeed={50} 
                   backSpeed={20}
                   loop='true'

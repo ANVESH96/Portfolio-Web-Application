@@ -1,10 +1,10 @@
 import React from "react"
-import {Container} from "react-bootstrap"
+import {Navbar} from "react-bootstrap"
 
 const Footer = () => (
-<Container style={{justifyContent:"center"}}>
-  {"Build By Anvesh Mekala with Gtasby & GraphQL"}
- </Container>
+<Navbar style={{justifyContent:"center"}}>
+  Build By Anvesh Mekala with Gtasby & GraphQL
+ </Navbar>
 )
 
 export default Footer

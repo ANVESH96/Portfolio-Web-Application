@@ -11,4 +11,5 @@ skills:
   - Dashboard
 image: ./canvas.png
 projectnumber: "1"
+sourcecode: "https://github.com/stevemacn/InnovationAnalytics"
 ---

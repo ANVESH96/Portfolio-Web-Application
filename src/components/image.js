@@ -1,6 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import {Row} from "react-bootstrap"
 
 const Profileimage = () => (
   <StaticQuery
@@ -15,7 +16,7 @@ const Profileimage = () => (
         }
       }
     `}
-    render={data => <Img fluid={data.profilepic.childImageSharp.fluid} style={{borderRadius:120,maxWidth:250,maxHeight:250}} />}
+    render={data => <Img fluid={data.profilepic.childImageSharp.fluid} style={{borderRadius:100,maxWidth:150,maxHeight:150}} /> }
   />
 )
 export default Profileimage

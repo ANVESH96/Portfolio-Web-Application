@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
        <Nav style={{padding:"0rem 0rem 0rem 5rem"}} > <Link to={"/"} style={{color:'white'}}> HOME </Link> </Nav>
        <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/skills"} style={{color:'white'}}>SKILLS </Link></Nav>
        <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/projects"} style={{color:'white'}}>PROJECTS</Link></Nav>
-       <Nav  style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/contact"} style={{color:'white'}}>CONTACT </Link></Nav>
+       {/* <Nav  style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/contact"} style={{color:'white'}}>CONTACT </Link></Nav> */}
        {/* <Nav  style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/newskills"} style={{color:'white'}}>newskills </Link></Nav> */}
 
      </Nav>

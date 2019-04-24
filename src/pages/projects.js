@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import {FaGithub} from "react-icons/fa"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+
 export const PageQuery =  graphql`
 query Projectsdisplay{
     allMarkdownRemark(sort :{fields:[frontmatter___projectnumber],order:ASC}) {

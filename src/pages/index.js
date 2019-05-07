@@ -39,7 +39,7 @@ const homepage = ({data}) => (
     <Layout>
     <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
     <Container >
-    <Jumbotron className="flex flex-column" style={{fontFamily:'lato',background:"#ffffff",paddingBottom:"2.5rem",minHeight:'420px',justifyContent:'center'}}>    
+    <Jumbotron className="flex flex-column" style={{fontFamily:'lato',background:"#ffffff",paddingBottom:"2.5rem",minHeight:'650px',justifyContent:'center'}}>    
     <Row style={{justifyContent:"center",paddingTop:"4rem"}}>
     <Avatar githubHandle="ANVESH96" size={150} round="120px" />
     </Row>
@@ -57,12 +57,12 @@ const homepage = ({data}) => (
               /> 
     </Row>
     </Jumbotron>
-    {/* <Jumbotron style={{background:"#ffffff"}}>
-    {data.allMarkdownRemark.edges.map(project=>
+    {/* <Jumbotron style={{background:"#ffffff"}}> */}
+    {/* {data.allMarkdownRemark.edges.map(project=>
         console.log(project.node.frontmatter.title)
-    )}
+    )} */}
     
-      </Jumbotron> */}
+      {/* </Jumbotron>  */}
     </Container>
     </Layout>
 )

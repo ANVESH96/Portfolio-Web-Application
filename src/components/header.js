@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
   
   <Navbar  sticky ="top"  bg="dark" expand="md" variant="dark" role="navigation" style={{minHeight:70,fontFamily:'lato',color:'white'}}>
   <div className="container">
-  <Navbar.Brand className="ml-auto mr-auto" style={{fontSize:25}} >{'ANVESHREDDY MEKALA'}</Navbar.Brand>
+  <Navbar.Brand className="ml-auto mr-auto" style={{fontSize:20}} >{'ANVESHREDDY MEKALA'}</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
    <Navbar.Collapse id="basic-navbar-nav">
      <Nav expand="md"  className="ml-auto mr-auto" >

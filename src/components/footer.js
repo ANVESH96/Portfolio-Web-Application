@@ -3,7 +3,7 @@ import {Navbar} from "react-bootstrap"
 
 const Footer = () => (
 <Navbar style={{justifyContent:"center"}}>
-  Build By Anvesh Mekala with Gtasby & GraphQL
+  {"Build By Anvesh Mekala with Gtasby & GraphQL"}
  </Navbar>
 )
 

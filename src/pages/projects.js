@@ -66,7 +66,7 @@ const projectPage = ({data}) => (
     </Card.Text>
     <Card.Text >
       <Button variant="light" > <a href={post.node.frontmatter.sourcecode}>Source Code</a> </Button>
-      <Button style={{float:"right"}}variant="outline-dark"> Read More </Button>
+      {/* <Button style={{float:"right"}}variant="outline-dark"> Read More </Button> */}
       </Card.Text>
   </Card.Body>
   </Col>

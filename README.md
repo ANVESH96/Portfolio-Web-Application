@@ -2,12 +2,12 @@
 ## Portfolio Design using Gatsby v2.0, React-bootstrap and GraphQL data querying
 https://anveshreddy-mekala.netlify.com/home/
 
-##Installation
+## Installation
 * Download the git repository and run the following command inside the repo
 ```jaavscript
 npm install
 ```
-##Dependencies
+## Dependencies
 One should install Node.js before installation
 * Node.js
 * Gatsby v2.0
@@ -15,4 +15,4 @@ One should install Node.js before installation
 * React.js
 * GraphQL
 
-### This project is configured with continuous deployment with Netlify and expect updates, changes in design often.
+##### This project is configured with continuous deployment with Netlify and expect updates, changes in design often.

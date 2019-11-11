@@ -41,13 +41,13 @@ const homepage = ({data}) => (
     <Container >
     <Jumbotron className="flex flex-column" style={{fontFamily:'lato',background:"#ffffff",paddingBottom:"2.5rem",minHeight:'650px',justifyContent:'center'}}>    
     <Row style={{justifyContent:"center",paddingTop:"4rem"}}>
-    <Avatar githubHandle="ANVESH96" size={150} round="120px" />
+    {/* <Avatar githubHandle="ANVESH96" size={150} round="120px" /> */}
     </Row>
     <Row  id= "main"  className="ml-auto mr-auto" style={{fontFamily:"lato",fontSize:"28px",justifyContent:"center"}}>
           {"   I BUILD END TO END SOLUTIONS THAT ARE"}
     </Row>
     <Row  id= "typewriter"  style={{justifyContent:"center"}}>
-        <Typed style={{color:"orange",fontSize:"30px"}}
+        <Typed style={{color:"orange",fontSize:"20px"}}
                   strings={["DATA DRIVEN","SCALABLE TO USERS","INNOVATIVE","PERFORMANCE OPTIIMIZED"]} 
                   typeSpeed={50} 
                   backSpeed={20}

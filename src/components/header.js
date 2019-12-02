@@ -13,9 +13,10 @@ const Header = ({ siteTitle }) => (
   <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
    <Navbar.Collapse id="basic-navbar-nav">
      <Nav expand="md"  className="ml-auto mr-auto" >
-       <Nav style={{padding:"0rem 0rem 0rem 5rem"}} > <Link to={"/"} style={{color:'white'}}> HOME </Link> </Nav>
-       <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/skills"} style={{color:'white'}}>SKILLS </Link></Nav>
-       <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/projects"} style={{color:'white'}}>PROJECTS</Link></Nav>
+       <Nav style={{padding:"0rem 0rem 0rem 5rem"}} > <Link to={"/"} style={{color:'white'}}> Home </Link> </Nav>
+       <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/skills"} style={{color:'white'}}>Skills </Link></Nav>
+       <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/projects"} style={{color:'white'}}>Projects</Link></Nav>
+       <Nav style={{padding:"0rem 0rem 0rem 5rem"}}><Link to={"/contact"} style={{color:'white'}}>Contact</Link></Nav>
      </Nav>
      </Navbar.Collapse>
      </div>

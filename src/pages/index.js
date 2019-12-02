@@ -34,7 +34,7 @@ query homeprojectdisplay{
  
 const homepage = ({data}) => (
     <Layout>
-    <SEO title="Home" keywords={[`gatsby`,'UNCC','UNCCHARLOTTE',`react`,'graphql','AnveshReddy Mekala','anveshmekala','Anvesheddy mekala']} />
+    <SEO title="Home" keywords={[`frontend developer`,`anvesh`,`react`,'graphql',`AnveshReddy Mekala`,`anveshmekala`,`Anvesheddy mekala`]} />
     <Container >
     <Jumbotron className="flex flex-column" style={{fontFamily:'lato',background:"#ffffff",paddingBottom:"2.5rem",minHeight:'650px',justifyContent:'center'}}>    
     <Row style={{justifyContent:"center",paddingTop:"4rem"}}>

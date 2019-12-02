@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import {Row,Container} from "react-bootstrap"
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
+// import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 export const Images =  graphql`
 query projectimages{
@@ -22,29 +22,7 @@ const contactPage = ({data}) => (
     <Layout>
      <Container>
      <Row style={{justifyContent:"center"}}>
-     {/* <Flippy
-    flipOnHover={true} // default false
-    flipOnClick={true} // default false
-    flipDirection="horizontal" // horizontal or vertical
-     // to use toggle method like this.flippy.toggle()
-    // if you pass isFlipped prop component will be controlled component.
-    // and other props, which will go to div
-    style={{ width: '300px', height: '300px' }} /// these are optional style, it is not necessary
-  >
-    <FrontSide
-      style={{
-        backgroundColor: '#F3F3F3',
-      }}
-    >
-     <Img className="image-fluid" variant="top" fixed={data.profilepic.childImageSharp.fixed} />
-    {"Anvesh"}
-    </FrontSide>
-    <BackSide
-      style={{ backgroundColor: '#6F6F6F'}}>
-   {"Mekala"}
-    </BackSide>
-  </Flippy> */}
-
+ 
      <Timeline lineColor={'#ddd'}>
   <TimelineItem
     key="001"

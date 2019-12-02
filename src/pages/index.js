@@ -2,12 +2,9 @@ import React from "react"
 import Typed from 'react-typed';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {Jumbotron,Container,Col,Row,Card,Button} from "react-bootstrap"
+import {Jumbotron,Container,Row} from "react-bootstrap"
 import { graphql } from "gatsby"
-import { StaticQuery} from "gatsby"
-import Img from "gatsby-image"
-import Avatar from 'react-avatar';
-import Profileimage from "../components/image"
+
 
 
 export const  displayimage = graphql`
@@ -57,12 +54,6 @@ const homepage = ({data}) => (
               /> 
     </Row>
     </Jumbotron>
-    {/* <Jumbotron style={{background:"#ffffff"}}> */}
-    {/* {data.allMarkdownRemark.edges.map(project=>
-        console.log(project.node.frontmatter.title)
-    )} */}
-    
-      {/* </Jumbotron>  */}
     </Container>
     </Layout>
 )

@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import {Container,Col,Row} from "react-bootstrap"
 import{Card} from"react-bootstrap"
-import skillsCard from "../components/skillsCard"
+// import skillsCard from "../components/skillsCard"
 
 const skillsPage = () => (
   <Layout>

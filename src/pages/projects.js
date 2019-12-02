@@ -1,8 +1,7 @@
 import React from "react"
-import Jumbotron, { Card, Container, InputGroup,FormControl,Row,  Badge, Col,Button } from "react-bootstrap"
+import  { Card, Container,Row,  Badge, Col,Button } from "react-bootstrap"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {FaGithub} from "react-icons/fa"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ANVESHREDDY MEKALA`,
+    title: `ANVESH MEKALA`,
     author:'anveshreddy mekala',
     description:"portfolio website of AnveshReddy mekala",
     Interests : 'Interests',
